@@ -6,8 +6,7 @@
     ],
     "description": "The money input with any numbers digits after comma and negative mode.",
     "main": [
-        "/src/money-input.js",
-        "/dist/money-input.min.js"
+        "/src/money-input.js"
     ],
     "keywords": [
         "js",
