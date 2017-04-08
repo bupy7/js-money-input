@@ -1,13 +1,13 @@
 {
     "name": "js-money-input",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0",
     "authors": [
         "Vasilij Belosludcev <bupy765@gmail.com>"
     ],
     "description": "The money input with any numbers digits after comma and negative mode.",
     "main": [
-        "/src/*.js",
-        "/dist/*.js"
+        "/src/money-input.js",
+        "/dist/money-input.min.js"
     ],
     "keywords": [
         "js",
