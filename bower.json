@@ -1,0 +1,26 @@
+{
+    "name": "js-money-input",
+    "version": "1.0.0-alpha",
+    "authors": [
+        "Vasilij Belosludcev <bupy765@gmail.com>"
+    ],
+    "description": "The money input with any numbers digits after comma and negative mode.",
+    "main": [
+        "/src/*.js",
+        "/dist/*.js"
+    ],
+    "keywords": [
+        "js",
+        "library",
+        "money",
+        "javascript",
+        "input"
+    ],
+    "license": "BSD 3-Clause",
+    "homepage": "https://github.com/bupy7/js-money-input",
+    "ignore": [
+        ".*",
+        "*.md"
+    ]
+}
+
