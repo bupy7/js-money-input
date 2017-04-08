@@ -1,1 +1,5 @@
-# js-money-input
+js-money-input
+==============
+
+IN DEVELOPING DONT USE
+----------------------
