@@ -1,5 +1,5 @@
 /**
- * @version 1.0.0
+ * @version 1.0.1
  */
 var MoneyInput = (function() {
     'use strict';
@@ -16,10 +16,10 @@ var MoneyInput = (function() {
         this.init();
     }
     MoneyInput.prototype.init = function() {
-        this._format();
+        this.format();
         this._attachEvents();
     };
-    MoneyInput.prototype._format = function() {
+    MoneyInput.prototype.format = function() {
         var value = this.input.value;
         if (this.negative) {
             var negative = /^-/.test(value);
@@ -31,7 +31,7 @@ var MoneyInput = (function() {
         this.input.value = negative ? '-' + value : value;
     };
     MoneyInput.prototype._attachEvents = function() {
-        this.input.addEventListener('keyup', this._format.bind(this));
+        this.input.addEventListener('keyup', this.format.bind(this));
     };
     return MoneyInput;
 })();
