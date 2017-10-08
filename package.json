@@ -1,6 +1,6 @@
 {
   "name": "js-money-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The money input with any numbers digits after comma and negative mode",
   "main": "dist/money-input.min.js",
   "repository": {
