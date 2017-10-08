@@ -25,7 +25,7 @@ var MoneyInput = (function() {
             var negative = /^-/.test(value);
         }
         value = value.replace(/(,|\.|\s)/g, '.')
-            .replace(/[^\d|^\.]/g, '')
+            .replace(/[^(\d|\.)]/g, '')
             .replace(/(\.[\d]*)(\.)$/, '$1')
             .replace(new RegExp('(\\.[\\d]{' + this.round + '})([\\d]+)$'), '$1');
         this.input.value = negative ? '-' + value : value;
