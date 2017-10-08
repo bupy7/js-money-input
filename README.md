@@ -9,8 +9,14 @@ Install
 **Install via the Bower:**
 
 ```
-bower install js-money-input#1.0.*
+bower install js-money-input
 ```
+
+**Install through the Npm:**
+
+```
+npm install js-money-input
+``` 
 
 Usage
 -----
