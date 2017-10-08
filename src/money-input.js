@@ -1,6 +1,3 @@
-/**
- * @version 1.0.1
- */
 var MoneyInput = (function() {
     'use strict';
     /**
