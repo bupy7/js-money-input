@@ -34,10 +34,10 @@ var MoneyInput = (function() {
         var parts = value.split('.', 2),
         	result = [];
       	
-        if (parts.length > 0 && this.round > 0) {
+        if (parts.length > 0) {
             result.push(parts[0].replace(/[^\d]/g, ''));
             
-            if (parts[1] !== undefined) {
+            if (parts[1] !== undefined && this.round > 0) {
             	var scale = parts[1].match(new RegExp('^[\\d]{0,' + this.round + '}'));
                 if (scale !== null) {
               	    result.push(scale[0]);
