@@ -24,7 +24,7 @@ Usage
 ```html
 <input id="money" type="text" value="542.23">
 
-<script type="text/javascript" src="/PATH_TO_BOWER/js-lib-url/dist/money-input.min.js"></script>
+<script type="text/javascript" src="js-lib-url/dist/money-input.min.js"></script>
 <script type="text/javascript">
 var moneyInput = new MoneyInput('#money');
 </script>
@@ -33,11 +33,12 @@ var moneyInput = new MoneyInput('#money');
 Options
 -------
 
-MoneyInput class have three parameters:
+MoneyInput class have four parameters:
 
 - `input` (string|object) - Input selector or HTML-object.
 - `round` (?integer) - Number of decimal digits to round to. *[optional]*
 - `negative` (?boolean) - Whether or not contain negative value. *[optional]*
+- `init` (?boolean) - Whether autoinit formatter. *[optional]*
 
 License
 -------
