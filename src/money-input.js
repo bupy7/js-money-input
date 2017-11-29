@@ -34,7 +34,7 @@ var MoneyInput = (function() {
         var parts = value.split('.', 2),
         	result = [];
       	
-        if (parts.length > 0) {
+        if (parts.length > 0 && this.round > 0) {
             result.push(parts[0].replace(/[^\d]/g, ''));
             
             if (parts[1] !== undefined) {
